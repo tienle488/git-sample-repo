@@ -1,5 +1,5 @@
 git status --> prints the status of the git repo
-git init
+git init --> initializes the Git Repository (let's just update again and see that git diff works)
 git config --global user.name "tienle488"
 git config --global user.email tienle_355@msn.com
 git config user.name "tienle488"
@@ -7,4 +7,4 @@ git config user.email tienle_355@msn.com
 git add
 git commit -m ""
 git log
-Git diff <filename>
+git diff <filename>
