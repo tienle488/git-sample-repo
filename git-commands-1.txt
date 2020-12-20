@@ -1,10 +1,14 @@
 git status --> prints the status of the git repo
 git init --> initializes the Git Repository (let's just update again and see that git diff works)
-git config --global user.name "tienle488"
-git config --global user.email tienle_355@msn.com
-git config user.name "tienle488"
-git config user.email tienle_355@msn.com
-git add
-git commit -m ""
-git log
-git diff <filename>
+git config --global user.name "tienle488" >> Specifies username globally
+git config --global user.email tienle_355@msn.com >> Specifies user email globally
+git config user.name "tienle488" >> Specifies username for particular repo
+git config user.email tienle_355@msn.com >> Specifies user email for particular repo
+git add >> Add file to staging environment
+git commit -m "" >> Commit file to local Git repo with message
+git log >> Check file log history
+git diff <filename>  >> Check changes made to file with existing file
+git remote add origin <GitHub Repository URL>  >> Establish connection to the remote GitHub repo
+git push orgin master >> Push to master branch  OLD
+git push -u origin main (latest)
+git pull >> Pull changes checked in to remote repo
